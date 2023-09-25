@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
-import Searchbar from "../Searchbar.jsx/Searchbar";
+import Searchbar from "../Searchbar/Searchbar";
 import "./header.css";
 
 const Header = () => {

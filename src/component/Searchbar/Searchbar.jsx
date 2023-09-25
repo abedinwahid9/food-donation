@@ -12,7 +12,7 @@ const Searchbar = () => {
           name=""
           id=""
         />
-        <button className="bg-primaryColor lg:w-1/5 w-full  p-4 border-2 border-primaryColor lg:rounded-r-lg lg:rounded-none rounded-md md:mb-0 mb-3">
+        <button className="bg-primaryColor lg:w-1/5 w-full  p-4 border-2 border-primaryColor lg:rounded-r-lg lg:rounded-none rounded-md md:mb-0 mb-3 text-[#FFF] font-semibold text-base">
           Search
         </button>
       </div>
