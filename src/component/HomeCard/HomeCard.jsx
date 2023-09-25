@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 const HomeCard = () => {
   return (
-    <div>
-      <div className="card card-compact  bg-[#0052FF26] ">
+    <Link to="/:id">
+      <div className="card card-compact  bg-[#0052FF26]   ">
         <figure>
           <img
             src="https://images.unsplash.com/photo-1609139027234-57570f43f692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
@@ -19,7 +21,7 @@ const HomeCard = () => {
           </p>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
