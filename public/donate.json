@@ -1,0 +1,151 @@
+{
+  "donations": [
+    {
+      "id": 1,
+      "picture": "https://i.ibb.co/dpLCWg6/cng-blog-2-1024x678.jpg",
+      "title": "Clean Water Initiative",
+      "category": "Water",
+      "category_bg": "#79C23F33",
+      "card_bg": "#79c23f26",
+      "text_button_bg": "#79C23F",
+      "description": "Help provide clean and safe drinking water to communities in need.",
+      "donate_amount": 250,
+      "title_color": "#79C23F"
+    },
+
+    {
+      "id": 3,
+      "picture": "https://i.ibb.co/mF9sjD9/istockphoto-941788480-612x612.jpg",
+      "title": "Food for the Hungry",
+      "category": "Food",
+      "category_bg": "#FF444A33",
+      "card_bg": "#f8714726",
+      "text_button_bg": "#F87147",
+      "description": "Provide nutritious meals to those facing hunger and malnutrition.",
+      "donate_amount": 230,
+      "title_color": "#F87147"
+    },
+    {
+      "id": 4,
+      "picture": "https://i.ibb.co/mbH4dw5/istockphoto-1345507654-612x612.jpg",
+      "title": "Medical Supplies Aid",
+      "category": "Healthcare",
+      "category_bg": "#0052ff33",
+      "card_bg": "#0052FF26",
+      "text_button_bg": "#0052FF",
+      "description": "Support healthcare workers with essential medical supplies in crisis areas.",
+      "donate_amount": 200,
+      "title_color": "#0052FF"
+    },
+
+    {
+      "id": 7,
+      "picture": "https://i.ibb.co/P5bRTv3/istockphoto-1092875824-612x612.jpg",
+      "title": "Community Food Banks",
+      "category": "Food",
+      "category_bg": "#FF444A33",
+      "card_bg": "#f8714726",
+      "text_button_bg": "#F87147",
+      "description": "Support local food banks in providing food assistance to families in need.",
+      "donate_amount": 270,
+      "title_color": "#F87147"
+    },
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/yhsGf20/istockphoto-1406888053-612x612.jpg",
+      "title": "Educational Scholarships",
+      "category": "Education",
+      "category_bg": "#FF444A33",
+      "card_bg": "#ff444a26",
+      "text_button_bg": "#FF444A",
+      "description": "Support underprivileged students by funding their education and future.",
+      "donate_amount": 250,
+      "title_color": "#FF444A"
+    },
+    {
+      "id": 5,
+      "picture": "https://i.ibb.co/vL5qMw0/african-child-places-hand-spout-water-fountain-pump-preparing-to-carry-part-non-profit-project-ugand.webp",
+      "title": "Water for All Project",
+      "category": "Water",
+      "category_bg": "#79C23F33",
+      "card_bg": "#79c23f26",
+      "text_button_bg": "#79C23F",
+      "description": "Support the initiative to make clean water accessible to everyone.",
+      "donate_amount": 250,
+      "title_color": "#79C23F"
+    },
+    {
+      "id": 6,
+      "picture": "https://i.ibb.co/kJsPhGV/istockphoto-1133836255-612x612.jpg",
+      "title": "Youth STEM Education",
+      "category": "Education",
+      "category_bg": "#FF444A33",
+      "card_bg": "#ff444a26",
+      "text_button_bg": "#FF444A",
+      "description": "Encourage young minds to excel in science, technology, engineering, and math.",
+      "donate_amount": 260,
+      "title_color": "#FF444A"
+    },
+    {
+      "id": 8,
+      "picture": "https://i.ibb.co/qDgSb3y/offer-mental-health-support-healthyplace.jpg",
+      "title": "Mental Health Support",
+      "category": "Healthcare",
+      "category_bg": "#0052ff33",
+      "card_bg": "#0052FF26",
+      "text_button_bg": "#0052FF",
+      "description": "Promote mental health awareness and provide counseling services.",
+      "donate_amount": 230,
+      "title_color": "#0052FF"
+    },
+
+    {
+      "id": 10,
+      "picture": "https://i.ibb.co/H25drZM/download.jpg",
+      "title": "Literacy for All",
+      "category": "Education",
+      "category_bg": "#FF444A33",
+      "card_bg": "#ff444a26",
+      "text_button_bg": "#FF444A",
+      "description": "Promote literacy and provide access to books and education materials.",
+      "donate_amount": 210,
+      "title_color": "#FF444A"
+    },
+    {
+      "id": 12,
+      "picture": "https://i.ibb.co/Y7L6x5x/download.jpg",
+      "title": "Maternal Care Program",
+      "category": "Healthcare",
+      "category_bg": "#0052ff33",
+      "card_bg": "#0052FF26",
+      "text_button_bg": "#0052FF",
+      "description": "Ensure safe pregnancies and childbirth through maternal care initiatives.",
+      "donate_amount": 290,
+      "title_color": "#0052FF"
+    },
+    {
+      "id": 9,
+      "picture": "https://i.ibb.co/x77hfH8/images.jpg",
+      "title": "Ocean Conservation",
+      "category": "Water",
+      "category_bg": "#79C23F33",
+      "card_bg": "#79c23f26",
+      "text_button_bg": "#79C23F",
+      "description": "Protect marine life and preserve the health of our oceans.",
+      "donate_amount": 280,
+      "title_color": "#79C23F"
+    },
+    {
+      "id": 11,
+      "picture": "https://i.ibb.co/sFGqnKJ/images.jpg",
+      "title": "Nutrition for Children",
+      "category": "Food",
+      "category_bg": "#FF444A33",
+      "card_bg": "#f8714726",
+      "text_button_bg": "#F87147",
+      "description": "Ensure children receive proper nutrition for their growth and development.",
+      "donate_amount": 240,
+      "title_color": "#F87147"
+    }
+  ]
+}
