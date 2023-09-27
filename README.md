@@ -1,8 +1,7 @@
-# React + Vite
+# Add at least 3 Project features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Many features have been addded to this project likes search option,toast mess show,can't donate same item etc.
 
-Currently, two official plugins are available:
+- This website fully responsive on all mobiles ,laptop, desktop devices
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Also added most important feature error handle,404 page features add in this projeact.
