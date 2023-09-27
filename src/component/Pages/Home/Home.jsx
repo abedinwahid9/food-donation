@@ -12,7 +12,6 @@ const Home = () => {
 
   useEffect(() => {
     if (searchData !== "") {
-      // Filter the donation data based on the searchData
       const filterData = donationDatas.filter(
         (data) => data.category.toLowerCase() === searchData
       );
