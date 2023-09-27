@@ -1,30 +1,50 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
-const DonationCard = () => {
+const DonationCard = ({ donationData }) => {
+  const {
+    picture,
+    category,
+    donate_amount,
+    card_bg,
+    title_color,
+    title,
+    category_bg,
+    id,
+  } = donationData;
+
   return (
     <div>
-      <div className="flex bg-base-100 bg-[#0052FF26] rounded-lg  overflow-hidden">
+      <div
+        className={"flex bg-base-100  rounded-lg  overflow-hidden"}
+        style={{ backgroundColor: card_bg }}
+      >
         <div className="w-2/5">
-          <img
-            className="h-full object-fit"
-            src="https://images.unsplash.com/photo-1609139027234-57570f43f692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-            alt="Album"
-          />
+          <img className="h-full object-fit" src={picture} alt="Album" />
         </div>
         <div className="p-5">
-          <div className="inline-flex mb-2">
-            <h2 className="text-[#0052FF] font-medium px-3 py-1 bg-[#0052ff33] rounded">
-              Health
+          <div className="inline-flex mb-2 ">
+            <h2
+              className=" font-medium  px-3 py-1 rounded "
+              style={{ color: title_color, backgroundColor: category_bg }}
+            >
+              {category}
             </h2>
           </div>
-          <p className="font-semibold text-xl text-[#000]">
-            Clean water for children
+          <p className="font-semibold md:text-xl text-base  text-[#000]">
+            {title}
           </p>
-          <p className="text-[#0052FF] font-semibold text-base mt-2 mb-4">
-            $290.00
+          <p
+            className=" font-semibold text-base mt-2 mb-4"
+            style={{ color: title_color }}
+          >
+            ${donate_amount}
           </p>
-          <Link to="/:id">
-            <button className="bg-[#0052FF] py-2 px-4 text-base text-[#fff] font-semibold rounded">
+          <Link to={`/${id}`}>
+            <button
+              className="py-2 px-4 text-base font-semibold rounded"
+              style={{ backgroundColor: title_color, color: "#fff" }}
+            >
               View Details
             </button>
           </Link>

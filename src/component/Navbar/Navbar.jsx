@@ -2,6 +2,7 @@
 
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
+import logoImg from "../../assets/logo.png";
 
 /* eslint-disable react/no-unknown-property */
 const Navbar = () => {
@@ -18,7 +19,7 @@ const Navbar = () => {
       <div className="navbar 0">
         <div className="navbar-start">
           <NavLink to="/" className="flex items-center ">
-            <img src="/src/assets/logo.png" className="w-4/5" alt="" />
+            <img src={logoImg} className="w-4/5" alt="" />
           </NavLink>
         </div>
         <div className="navbar-end ">
