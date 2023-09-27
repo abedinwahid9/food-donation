@@ -6,8 +6,12 @@ const Error = () => {
       className=" flex flex-col items-center mt-32 
     "
     >
-      <h2>Oops error!</h2>
-      <p>Here is helpful link:</p>
+      <img
+        src="https://i.ibb.co/Y3DrjGS/vecteezy-404-landing-page-6549647.jpg"
+        alt=""
+      />
+
+      <p className="mt-4">Here is helpful link:</p>
       <NavLink rel="stylesheet" href="/home">
         home
       </NavLink>
