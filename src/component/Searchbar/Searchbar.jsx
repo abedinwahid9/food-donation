@@ -1,8 +1,9 @@
 import { useContext, useRef, useState } from "react";
 import { searchContext } from "../../App";
+import "./searchbar.css";
 
 const Searchbar = () => {
-  const [inputData, setInputData] = useState();
+  const [inputData, setInputData] = useState("");
   const inputRef = useRef(null);
 
   const { setSearchData } = useContext(searchContext);
@@ -15,6 +16,8 @@ const Searchbar = () => {
     setSearchData(inputData);
     inputRef.current.value = "";
   };
+
+  console.log(inputData);
 
   return (
     <div className="flex flex-col items-center md:pt-28 pt-10 md:pb-40 pb-16">
@@ -33,7 +36,9 @@ const Searchbar = () => {
         />
         <button
           onClick={handleSearchBtn}
-          className="bg-primaryColor lg:w-1/5 w-full  p-4 border-2 border-primaryColor lg:rounded-r-lg lg:rounded-none rounded-md md:mb-0 mb-3 text-[#FFF] font-semibold text-base"
+          className={`bg-primaryColor lg:w-1/5 w-full  p-4 border-2 border-primaryColor lg:rounded-r-lg lg:rounded-none rounded-md md:mb-0 mb-3 text-[#FFF] font-semibold text-base ${
+            inputData == "" ? "disabledBtn" : ""
+          }`}
         >
           Search
         </button>
