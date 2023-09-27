@@ -17,7 +17,7 @@ const HomeCard = ({ donateData }) => {
         <div className="p-5 h-2/5">
           <div className="inline-flex mb-2">
             <h2
-              className="font-medium px-3 py-1  rounded"
+              className="font-medium  px-3 py-1  rounded"
               style={{ color: title_color, backgroundColor: category_bg }}
             >
               {category}

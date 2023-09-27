@@ -25,7 +25,7 @@ const Donation = () => {
   }, []);
 
   return (
-    <>
+    <div className="mb-16">
       {donationDatas.length === 0 ? (
         <div className="text-center my-4">No donation data found.</div>
       ) : (
@@ -48,7 +48,7 @@ const Donation = () => {
           )}
         </>
       )}
-    </>
+    </div>
   );
 };
 
